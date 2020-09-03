@@ -211,3 +211,31 @@ li a {
   justify-content: center;
   align-content: center;
 }
+
+.main > h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3% 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.aboutus {
+  width: 90%;
+  text-align: left;
+}
+
+#aboutus {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+#aboutus p {
+  margin-top: 1%;
+  align-self: center;
+}
+.container{
+  margin: 0 10%;
+}
