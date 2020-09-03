@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="menu">
+      <button class="nav-tgl white" type="button" aria-label="toggle menu">
+        <!-- this span just for the three dividers in the hamburger button-->
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="nav white">
+        <div class="navbar" id="list">
+          <ul class="nav-elements" id="navlist">
+            <li onclick="sendback()" class="hide">
+              <a href="#home">Home</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#aboutus">About Us</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#categories">Products & Deliverables</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#contactus">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="section" style="height: 100vh">
+      <div class="row1">
+        <div class="branding-txt">
+          <p class="heading">
+            <span class="double"> Sahib Dayal Madan Lal Group </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="branding-txt">
+          <p class="heading">
+            <span class="double">Golden Gates Arts & Handicrafts</span>
+          </p>
+          <p class="content">
+            Deals in: <br />
+            Home Renovations <br />
+            & Interiors
+          </p>
+        </div>
+
+        <div class="branding-txt">
+          <p class="heading">
+            <span class="double">Sahib Dayal Madan Lal</span>
+          </p>
+          <p class="content">
+            Deals in: <br />
+            Hardware &<br />
+            Fastener Products
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
