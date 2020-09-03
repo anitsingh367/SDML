@@ -52,8 +52,8 @@ var secondarySlider = new Splide("#secondary-slider", {
   cover: true,
   breakpoints: {
     600: {
-      fixedWidth: 66,
-      fixedHeight: 40,
+      fixedWidth: 100,
+      fixedHeight: 90,
     },
   },
 }).mount();
