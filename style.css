@@ -236,8 +236,16 @@ li a {
 }
 
 @media (max-width: 600px) {
+
   .section {
     justify-content: space-around;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./assets/9.jpg);
+  background-size: cover;
   }
   .branding-txt {
     margin: 0;
