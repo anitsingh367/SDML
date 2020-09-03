@@ -275,4 +275,10 @@ li a {
   #contactus{
     margin-bottom: 10%;
   }
+  .nav-elements{
+    flex-direction: column;
+  }
+  .nav-elements li{
+    margin: 5%;
+  }
 }
